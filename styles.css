@@ -13,5 +13,9 @@ body{
 }
 .h-img{
     height: 16px;
-    width:auto
+    width:auto;
+}
+.navbar{
+    background-color: #e7e9f2;
+    padding: 2.1px;
 }
