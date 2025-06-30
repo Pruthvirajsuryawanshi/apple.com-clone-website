@@ -62,11 +62,16 @@ body{
 }
 
 .product li {
+  font-weight:600;
+  text-align: center;
   flex: 0 0 auto;
   margin-right: 10px;
 }
 
-.product img {
-  height: 150px;
+.product img { 
+  background-color: white;
+  height: 100px;
   display: block;
+  border: 1px solid rgb(169, 146, 212);
+  border-radius: 8px;
 }
