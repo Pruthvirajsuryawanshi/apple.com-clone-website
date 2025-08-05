@@ -45,7 +45,10 @@ body{
 .product {
   margin-top: 30px;
 }
-
+.navbar-brand {
+    height: 24px;
+    width: 24px;
+}
 .product-item {
   padding: 15px;
 }
