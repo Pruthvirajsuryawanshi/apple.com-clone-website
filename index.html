@@ -1,50 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
     <link rel="icon" type="image/png" href="apple fevicon.png">
     <title>Apple web clone</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   
   <body>
     <header class="header">
-      <nav class="navbar">
-        <ul class="list">
-          <li><a href="#"><img src="apple logo.jpg" alt="apple logo" class="h-img"></a></li>
-          <li><a href="#">Store</a></li>
-          <li><a href="#">Mac</a></li>
-          <li><a href="#">iPad</a></li>
-          <li><a href="#">iPhone</a></li>
-          <li><a href="#">Watch</a></li>
-          <li><a href="#">AirPods</a></li>
-          <li><a href="#">TV & Home</a></li>
-          <li><a href="#">Entertainment</a></li>
-          <li><a href="#">Accessories</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#"><img src="search.png" alt="search image" class="h-img"></a></li>
-          <li><a href="#"><img src="cart bag.png" alt="Shoping Cart Image" class="h-img"></a></li>    
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container">
+          <a class="navbar-brand d-lg-none" href="#">
+            <img src="apple logo.jpg" alt="apple logo" class="h-img">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item d-none d-lg-block">
+                <a class="nav-link" href="#">
+                  <img src="apple logo.jpg" alt="apple logo" class="h-img">
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Store<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mac</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">iPad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">iPhone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Watch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AirPods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TV & Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Entertainment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Accessories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <div class="notice">
-      <p>Get up to 12 months of No Cost EMI plus up to ₹8000.00 instant cashback on selected products with eligible cards. See offers</p>
+      <div class="container">
+        <p class="text-center mb-0">Get up to 12 months of No Cost EMI plus up to ₹8000.00 instant cashback on selected products with eligible cards. See offers</p>
+      </div>
     </div>
     <main class="main">
-    <p class="big-note">Store. The best way to buy the<br> products you love.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="big-note text-center">Store. The best way to buy the<br> products you love.</p>
+          </div>
+        </div>
 
-    <div class="product">
-      <ul>
-        <li><a href="#"><img src="img1.png" alt="product-image"> </a><p>Mac</p></li>
-        <li><a href="#"><img src="img2.png" alt="product-image"></a><p>iPhone</p></li>
-        <li><a href="#"><img src="img3.png" alt="product-image"></a><p>iPad</p></li>
-        <li><a href="#"><img src="img4.png" alt="product-image"></a><p>Apple Watch</p></li>
-        <li><a href="#"><img src="img5.png" alt="product-image"></a><p>Air Pod</p></li>
-        <li><a href="#"><img src="img6.png" alt="product-image"></a><p>Air Tag</p></li>
-        <li><a href="#"><img src="img7.png" alt="product-image"></a><p>Apple TV 4K</p></li>
-        <li><a href="#"><img src="img8.png" alt="product-image"></a><p>Home Pod</p></li>
-        <li><a href="#"><img src="img9.png" alt="product-image"></a><p>Accessories</p></li>
-      </ul>
-    </div>
+        <div class="product">
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <div class="product-item text-center">
+                <a href="#"><img src="img1.png" alt="product-image" class="img-fluid"> </a>
+                <p class="mt-2">Mac</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <div class="product-item text-center">
+                <a href="#"><img src="img2.png" alt="product-image" class="img-fluid"></a>
+                <p class="mt-2">iPhone</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <div class="product-item text-center">
+                <a href="#"><img src="img3.png" alt="product-image" class="img-fluid"></a>
+                <p class="mt-2">iPad</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <div class="product-item text-center">
+                <a href="#"><img src="img4.png" alt="product-image" class="img-fluid"></a>
+                <p class="mt-2">Apple Watch</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <div class="product-item text-center">
+                <a href="#"><img src="img5.png" alt="product-image" class="img-fluid"></a>
+                <p class="mt-2">Air Pod</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <div class="product-item text-center">
+                <a href="#"><img src="img6.png" alt="product-image" class="img-fluid"></a>
+                <p class="mt-2">Air Tag</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <div class="product-item text-center">
+                <a href="#"><img src="img7.png" alt="product-image" class="img-fluid"></a>
+                <p class="mt-2">Apple TV 4K</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <div class="product-item text-center">
+                <a href="#"><img src="img8.png" alt="product-image" class="img-fluid"></a>
+                <p class="mt-2">Home Pod</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <div class="product-item text-center">
+                <a href="#"><img src="img9.png" alt="product-image" class="img-fluid"></a>
+                <p class="mt-2">Accessories</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!--<div class="product">note we have to edit this file as per the website
       <ul>
@@ -66,4 +158,4 @@
     </div>
     </main>
   </body>
-</html> 
+</html>
