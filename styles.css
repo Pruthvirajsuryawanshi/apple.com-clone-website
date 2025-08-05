@@ -40,38 +40,122 @@ body{
 }
 .main{
     margin-top: 90px;
-    margin-left: 80px;
 }
+
 .product {
-  overflow-x: auto;
-  white-space: nowrap;
-
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  margin-top: 30px;
 }
 
-.product::-webkit-scrollbar {
-  display: none;
+.product-item {
+  padding: 15px;
 }
 
-.product ul {
-  display: inline-flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.product li {
-  font-weight:600;
-  text-align: center;
-  flex: 0 0 auto;
-  margin-right: 10px;
-}
-
-.product img { 
+.product-item img { 
   background-color: white;
   height: 100px;
+  width: 100px;
+  object-fit: contain;
   display: block;
+  margin: 0 auto;
   border: 1px solid rgb(169, 146, 212);
   border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.product-item img:hover {
+  transform: scale(1.05);
+}
+
+.product-item p {
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Navbar centering styles */
+.navbar-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.nav-item {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link img {
+  height: 16px;
+  width: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-item {
+    margin: 5px 0;
+  }
+  
+  .big-note {
+    font-size: 32px;
+    padding: 0 15px;
+  }
+  
+  .notice {
+    padding: 0 15px;
+  }
+  
+  .notice p {
+    font-size: 12px;
+  }
+  
+  .product-item img {
+    height: 80px;
+    width: 80px;
+  }
+  
+  .product-item p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .big-note {
+    font-size: 28px;
+  }
+  
+  .product-item img {
+    height: 60px;
+    width: 60px;
+  }
+  
+  .product-item p {
+    font-size: 11px;
+  }
 }
