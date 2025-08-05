@@ -17,8 +17,8 @@ body{
     color: black;
 }
 .h-img{
-    height: 16px;
-    width:auto;
+    height: 40px;
+    width: auto;
 }
 .navbar{
     background-color: #e7e9f2;
@@ -108,7 +108,7 @@ body{
 }
 
 .nav-link img {
-  height: 16px;
+  height: 40px;
   width: auto;
 }
 
