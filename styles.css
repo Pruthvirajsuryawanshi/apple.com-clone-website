@@ -45,18 +45,15 @@ body{
 .product {
   margin-top: 30px;
 }
-.navbar-brand {
-    height: 24px;
-    width: 24px;
-}
+
 .product-item {
   padding: 15px;
 }
 
 .product-item img { 
   background-color: white;
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   object-fit: contain;
   display: block;
   margin: 0 auto;
@@ -139,8 +136,8 @@ body{
   }
   
   .product-item img {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
   }
   
   .product-item p {
@@ -154,8 +151,8 @@ body{
   }
   
   .product-item img {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
   }
   
   .product-item p {
